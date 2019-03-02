@@ -1,3 +1,6 @@
+@import './square.scss';
+@import './players.css';
+
 html {
     font-size: 62.5%; // 1rem is 10px
 }
@@ -25,4 +28,22 @@ body {
     margin-top: 2rem;
     display: grid;
     justify-items: center;
+}
+
+.title {
+    font-family: 'Coiny', cursive;
+    color: #4e8b15;
+    font-size: 2px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; 
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 20px;
 }

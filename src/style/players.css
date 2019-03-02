@@ -1,0 +1,9 @@
+.status {
+    font-family: 'Coiny', cursive;
+    color: #4e8b15;
+    font-size: 20px;
+    margin-top: 0.3px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
